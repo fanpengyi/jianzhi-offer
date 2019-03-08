@@ -22,8 +22,8 @@ public class 题3_二维数组找值 {
         int[][] a = {{1, 2, 4, 6}, {2, 4, 4, 8}, {3, 4, 5, 9}, {7, 9, 11, 16}};
 
 
-      /*  System.out.println(find(a, -1));
-        System.out.println(find(a, -5));
+        System.out.println(find(a, -1));
+       /* System.out.println(find(a, -5));
         System.out.println(find(a, 1));
         System.out.println(find(a, 3));
         System.out.println(find(a, 9));
@@ -39,8 +39,8 @@ public class 题3_二维数组找值 {
     /**
      * 在二维数组中找这个数是否存在
      *
-     * @param a
-     * @param i
+     * @param data
+     * @param target
      * @return 存在返回true ，否则返回 false
      */
     private static boolean find(int[][] data, int target) {
