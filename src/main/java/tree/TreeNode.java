@@ -5,13 +5,14 @@ package tree;
  * 主要属性： value 值  left 左节点   right 右节点
  *
  */
+
 public class TreeNode {
     //关键值
-    private int value;
+     int value;
     //左子树
-    private TreeNode left;
+     TreeNode left;
     //右子树
-    private TreeNode right;
+     TreeNode right;
     //删除状态
     private Boolean deleteStatus;
 

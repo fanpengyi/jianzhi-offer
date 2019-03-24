@@ -25,9 +25,7 @@ public static void main(String[] args){
     binaryTree.insert(123);
 
     TreeNode root = binaryTree.getRoot();
-
     System.out.println("跟节点是"+root.getValue());
-
 
     TreeNode treeNode = binaryTree.find(5);
     if(treeNode != null){
@@ -35,7 +33,6 @@ public static void main(String[] args){
     }else{
         System.out.println("没找到");
     }
-
 
     System.out.println("===前序====");
 
@@ -45,19 +42,10 @@ public static void main(String[] args){
 
     binaryTree.inOrder(root);
 
-
     System.out.println("===后序====");
 
     binaryTree.postOrder(root);
 
-
-
-
 }
-
-
-
-
-
 
 }
