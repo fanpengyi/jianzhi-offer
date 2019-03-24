@@ -1,5 +1,7 @@
 package tree;
 
+import tree.定义二叉树.BinaryTree;
+
 /**
  *
  *          10

@@ -1,4 +1,6 @@
-package tree;
+package tree.定义二叉树;
+
+import tree.TreeNode;
 
 /**
  * 创建 树
